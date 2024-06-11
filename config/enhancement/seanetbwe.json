@@ -1,0 +1,22 @@
+{
+    "model": {
+        "module": "modules.CBBRN",
+        "main": "seanetbwe",
+        "args": {}
+    },
+    "dataset": {
+        "module": "dataset.waveform_dataset_enhancement_seanet12_48",
+        "main": "WaveformDataset",
+        "args": {
+            "dataset": "D:\\yhc\\BWE\\cibrntestset.txt",
+            "limit": null,
+            "offset": 0,
+            "sample_length": 24000
+        }
+    },
+    "custom": {
+        "sample_length": 48000,
+        "frame_lenth" : 6400,
+        "hop_lenth" : 512
+    }
+}
